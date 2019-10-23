@@ -17,7 +17,7 @@
 package com.nhaarman.listviewanimations.itemmanipulation.dragdrop;
 
 import android.graphics.drawable.BitmapDrawable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.MotionEvent;
 import android.view.View;
 

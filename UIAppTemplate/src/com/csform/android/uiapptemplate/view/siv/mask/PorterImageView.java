@@ -15,7 +15,7 @@ import android.util.Log;
 
 import com.csform.android.uiapptemplate.R;
 
-public abstract class PorterImageView extends android.support.v7.widget.AppCompatImageView {
+public abstract class PorterImageView extends androidx.appcompat.widget.AppCompatImageView {
     private static final String TAG = PorterImageView.class.getSimpleName();
 
     private static final PorterDuffXfermode PORTER_DUFF_XFERMODE = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);

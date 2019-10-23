@@ -123,7 +123,7 @@
         app:pstsIndicatorColor="@color/material_lime_700"
         app:pstsTabTextColor="@color/material_lime_200" />
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/activity_tab_shop_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

@@ -3,7 +3,7 @@ package com.csform.android.uiapptemplate;
 import java.util.ArrayList;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.BaseAdapter;
 import android.widget.ListView;

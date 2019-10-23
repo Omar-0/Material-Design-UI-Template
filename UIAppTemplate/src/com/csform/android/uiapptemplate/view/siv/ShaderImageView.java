@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 
 import com.csform.android.uiapptemplate.view.siv.shader.ShaderHelper;
 
-public abstract class ShaderImageView extends android.support.v7.widget.AppCompatImageView {
+public abstract class ShaderImageView extends androidx.appcompat.widget.AppCompatImageView {
 
     private final static boolean DEBUG = false;
     private ShaderHelper pathHelper;

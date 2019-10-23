@@ -1,19 +1,18 @@
 apply plugin: 'com.android.application'
 
 dependencies {
-    compile fileTree(include: '*.jar', dir: 'libs')
-    compile project(':StickyListHeaders')
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    implementation fileTree(include: '*.jar', dir: 'libs')
+    implementation project(':StickyListHeaders')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 28
     defaultConfig {
-        applicationId "com.csform.android.uiapptemplate"
-        minSdkVersion 14
-        targetSdkVersion 25
+        applicationId "use.your.own.id.for.google.json"
+        minSdkVersion 17
+        targetSdkVersion 26
         vectorDrawables.useSupportLibrary = true
     }
     android {
@@ -43,7 +42,7 @@ android {
         }
 
         // Move the tests to tests/java, tests/res, etc...
-        instrumentTest.setRoot('tests')
+        androidTest.setRoot('tests')
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
@@ -55,4 +54,5 @@ android {
         release.setRoot('build-types/release')
     }
 }
+
 apply plugin: 'com.google.gms.google-services'

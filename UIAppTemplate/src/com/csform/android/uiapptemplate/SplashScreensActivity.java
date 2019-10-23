@@ -2,9 +2,9 @@ package com.csform.android.uiapptemplate;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.Window;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;

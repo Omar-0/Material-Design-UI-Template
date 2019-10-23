@@ -11,14 +11,14 @@
         android:layout_weight="1"
         android:orientation="vertical" >
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/activity_wizard_media_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/background_media"
             android:layout_weight="1"
             tools:context=".TabMediaActivity" >
-        </android.support.v4.view.ViewPager>
+        </androidx.viewpager.widget.ViewPager>
 
         <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
             android:id="@+id/activity_wizard_media_possition"

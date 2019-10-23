@@ -21,7 +21,7 @@ import android.widget.BaseAdapter;
 
 import com.nineoldandroids.animation.Animator;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * An implementation of AnimationAdapter which applies a single Animator to

@@ -23,7 +23,7 @@ import android.widget.BaseAdapter;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorInflater;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * An implementation of AnimationAdapter which bases the animations on

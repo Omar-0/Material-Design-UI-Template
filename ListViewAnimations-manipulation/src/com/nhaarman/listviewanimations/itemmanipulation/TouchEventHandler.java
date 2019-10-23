@@ -1,6 +1,6 @@
 package com.nhaarman.listviewanimations.itemmanipulation;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.MotionEvent;
 
 public interface TouchEventHandler {
